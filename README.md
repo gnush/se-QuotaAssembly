@@ -1,2 +1,2 @@
 # se-QuotaAssembly
-Space Engineers Ingame Script for assembling components based on a configurable quota.
+Space Engineers ingame script for automatically assembling components based on a configurable quota.
