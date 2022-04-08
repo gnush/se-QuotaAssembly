@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32106.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuotaAssembly", "QuotaAssembly\QuotaAssembly.csproj", "{ABDCA8E3-699E-4733-A4C6-A8C156ADD562}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuotaTemplateFactory", "QuotaTemplateFactory\QuotaTemplateFactory.csproj", "{67A97822-7C37-48D9-93B4-54CA17E94A6C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ABDCA8E3-699E-4733-A4C6-A8C156ADD562}.Debug|x64.ActiveCfg = Debug|x64
+		{ABDCA8E3-699E-4733-A4C6-A8C156ADD562}.Debug|x64.Build.0 = Debug|x64
+		{67A97822-7C37-48D9-93B4-54CA17E94A6C}.Debug|x64.ActiveCfg = Debug|x64
+		{67A97822-7C37-48D9-93B4-54CA17E94A6C}.Debug|x64.Build.0 = Debug|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7DB32678-3504-437C-B27C-3001950549BE}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,13 @@
+﻿R e a d m e
+-----------
+
+Setup:
+If the CustomData of the programmable block is empty, a default ini is created.
+
+Section [QuotaAssembly] is used to set the configs for the script.
+mode sets the mode of operations, currently only 'cooperative' mode is available.
+
+The quota is set through multiple sections, namely [Component], [Ammo], ...
+A copyable quota can be created using the QuotaTemplateFactory script.
+
+The assemblers you want to use for production need to have the section [QuotaAssembly] in their CustomData.

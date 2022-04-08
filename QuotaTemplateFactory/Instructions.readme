@@ -1,0 +1,23 @@
+﻿R e a d m e
+-----------
+
+Generates a ini in the CustomData of the programmable block this script is running from.
+The ini can be used as a quota for the QuotaAssembly script.
+
+The ini will be generated either from the production queue from an Assembler or from the Inventory of a Cargo Container.
+To set up your source from which the quota will be generated, set the name of the source to "QuotaTemplateFactory"
+or change the NAME attribute in the script to the name of the source.
+
+To change the default value of a generated quota item, adjust the DEFAULT_*_VALUE attributes.
+
+Possible arguments for the script:
+  assembler     - to search for an assembler as the source
+  cargo         - to search for a cargo container as the source, using the amount in the containers inventory for the quota
+  cargo-default - to search for a cargo container as the source, using the default values for the quota
+  ammo          - used in combination with the "assembler" argument, to tell the script to generate an ammo section
+  component     - used in combination with the "assembler" argument, to tell the script to generate a component section
+  tool          - used in combination with the "assembler" argument, to tell the script to generate a tool section
+Example: assembler,component  -  searchs for an assembler and create a component section
+Default (if no arguments given): assembler,component
+
+cargo is currently not supported
